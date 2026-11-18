@@ -1,0 +1,560 @@
+
+{
+  "database_name": "Tarot Timing Database",
+  "version": "1.0",
+  "deck": "Rider-Waite-Smith",
+  "timing_method": "Interpretive estimates using card meanings, suit associations and symbolic timing. Not universal or guaranteed.",
+  "timing_unit": "days",
+  "cards": [
+    {
+      "name": "The Fool", "number": 0, "arcana": "Major", "suit": null, "element": "Air", "correspondence": "Uranus",
+      "min_days": 7, "max_days": 90, "speed": "Uncertain",
+      "upright": "A fresh beginning, spontaneous opportunity or unexpected development.",
+      "reversed": "Hesitation, poor preparation or an unpredictable beginning.",
+      "reversed_effect": "Delay or uncertainty"
+    },
+    {
+      "name": "The Magician", "number": 1, "arcana": "Major", "suit": null, "element": "Air", "correspondence": "Mercury",
+      "min_days": 1, "max_days": 21, "speed": "Fast",
+      "upright": "Initiative, communication and resources coming together.",
+      "reversed": "Miscommunication, lack of focus or delayed action.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The High Priestess", "number": 2, "arcana": "Major", "suit": null, "element": "Water", "correspondence": "Moon",
+      "min_days": 14, "max_days": 90, "speed": "Gradual",
+      "upright": "Hidden information, intuition and quiet developments.",
+      "reversed": "Confusion, secrets or information not yet revealed.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "The Empress", "number": 3, "arcana": "Major", "suit": null, "element": "Earth", "correspondence": "Venus",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Growth, nurturing, abundance and gradual progress.",
+      "reversed": "Slow growth, lack of nurturing or creative blockage.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Emperor", "number": 4, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Aries",
+      "min_days": 30, "max_days": 180, "speed": "Moderate",
+      "upright": "Structure, authority, planning and decisive progress.",
+      "reversed": "Rigidity, control issues or resistance to progress.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Hierophant", "number": 5, "arcana": "Major", "suit": null, "element": "Earth", "correspondence": "Taurus",
+      "min_days": 30, "max_days": 180, "speed": "Slow",
+      "upright": "Tradition, commitment, institutions and steady progress.",
+      "reversed": "Resistance to convention or delays caused by formalities.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Lovers", "number": 6, "arcana": "Major", "suit": null, "element": "Air", "correspondence": "Gemini",
+      "min_days": 14, "max_days": 90, "speed": "Moderate",
+      "upright": "A meaningful choice, partnership or important connection.",
+      "reversed": "Indecision, miscommunication or relationship uncertainty.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Chariot", "number": 7, "arcana": "Major", "suit": null, "element": "Water", "correspondence": "Cancer",
+      "min_days": 7, "max_days": 60, "speed": "Fast",
+      "upright": "Determination, movement and forward progress.",
+      "reversed": "Lack of direction, obstacles or delayed movement.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Strength", "number": 8, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Leo",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Patience, courage and steady progress.",
+      "reversed": "Self-doubt, low confidence or slow progress.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Hermit", "number": 9, "arcana": "Major", "suit": null, "element": "Earth", "correspondence": "Virgo",
+      "min_days": 30, "max_days": 180, "speed": "Slow",
+      "upright": "Reflection, preparation and careful progress.",
+      "reversed": "Isolation, avoidance or prolonged uncertainty.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Wheel of Fortune", "number": 10, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Jupiter",
+      "min_days": 7, "max_days": 90, "speed": "Sudden",
+      "upright": "A turning point, changing circumstances or unexpected opportunity.",
+      "reversed": "Temporary setbacks, resistance to change or repeated patterns.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "Justice", "number": 11, "arcana": "Major", "suit": null, "element": "Air", "correspondence": "Libra",
+      "min_days": 30, "max_days": 120, "speed": "Moderate",
+      "upright": "Fair decisions, legal matters and balanced outcomes.",
+      "reversed": "Unfairness, unresolved matters or administrative delays.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Hanged Man", "number": 12, "arcana": "Major", "suit": null, "element": "Water", "correspondence": "Water",
+      "min_days": 30, "max_days": 180, "speed": "Very Slow",
+      "upright": "Waiting, surrender and a necessary change of perspective.",
+      "reversed": "Resistance, stagnation or difficulty moving forward.",
+      "reversed_effect": "Strong possible delay"
+    },
+    {
+      "name": "Death", "number": 13, "arcana": "Major", "suit": null, "element": "Water", "correspondence": "Scorpio",
+      "min_days": 30, "max_days": 180, "speed": "Transformational",
+      "upright": "An ending, transition and beginning of a new phase.",
+      "reversed": "Resistance to change or difficulty completing a transition.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Temperance", "number": 14, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Sagittarius",
+      "min_days": 30, "max_days": 180, "speed": "Gradual",
+      "upright": "Patience, balance and steady development.",
+      "reversed": "Imbalance, impatience or a slower adjustment period.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Devil", "number": 15, "arcana": "Major", "suit": null, "element": "Earth", "correspondence": "Capricorn",
+      "min_days": 30, "max_days": 180, "speed": "Slow",
+      "upright": "Attachments, material concerns and persistent situations.",
+      "reversed": "Breaking free from restrictions or releasing unhealthy patterns.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "The Tower", "number": 16, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Mars",
+      "min_days": 1, "max_days": 30, "speed": "Sudden",
+      "upright": "Unexpected change, disruption or a sudden breakthrough.",
+      "reversed": "Avoided change, delayed disruption or gradual release.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Star", "number": 17, "arcana": "Major", "suit": null, "element": "Air", "correspondence": "Aquarius",
+      "min_days": 30, "max_days": 180, "speed": "Gradual",
+      "upright": "Hope, healing, renewal and long-term progress.",
+      "reversed": "Discouragement, loss of confidence or delayed renewal.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The Moon", "number": 18, "arcana": "Major", "suit": null, "element": "Water", "correspondence": "Pisces",
+      "min_days": 14, "max_days": 120, "speed": "Uncertain",
+      "upright": "Uncertainty, hidden developments and unclear timing.",
+      "reversed": "Confusion gradually clearing or hidden information emerging.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "The Sun", "number": 19, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Sun",
+      "min_days": 7, "max_days": 60, "speed": "Fast",
+      "upright": "Clarity, success, happiness and positive developments.",
+      "reversed": "Temporary delays, reduced confidence or incomplete success.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Judgement", "number": 20, "arcana": "Major", "suit": null, "element": "Fire", "correspondence": "Fire",
+      "min_days": 14, "max_days": 90, "speed": "Sudden",
+      "upright": "An awakening, important decision or final development.",
+      "reversed": "Self-doubt, hesitation or postponing an important decision.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "The World", "number": 21, "arcana": "Major", "suit": null, "element": "Earth", "correspondence": "Saturn",
+      "min_days": 30, "max_days": 180, "speed": "Slow",
+      "upright": "Completion, achievement and the end of a significant cycle.",
+      "reversed": "Incomplete plans, unfinished business or delayed closure.",
+      "reversed_effect": "Possible delay"
+    },
+
+    {
+      "name": "Ace of Wands", "number": 1, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 1, "max_days": 14, "speed": "Very Fast",
+      "upright": "A new opportunity, inspiration or exciting beginning.",
+      "reversed": "A delayed start, lack of motivation or blocked enthusiasm.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Two of Wands", "number": 2, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 7, "max_days": 21, "speed": "Fast",
+      "upright": "Planning, decisions and preparing for future action.",
+      "reversed": "Fear of change or hesitation before taking action.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Three of Wands", "number": 3, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 14, "max_days": 30, "speed": "Fast",
+      "upright": "Expansion, progress and results beginning to approach.",
+      "reversed": "Slow progress, obstacles or delayed expectations.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Four of Wands", "number": 4, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 14, "max_days": 45, "speed": "Moderate",
+      "upright": "Celebration, stability and a happy milestone.",
+      "reversed": "Postponed celebration or temporary instability.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Five of Wands", "number": 5, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 7, "max_days": 30, "speed": "Unsettled",
+      "upright": "Competition, conflict and challenges requiring action.",
+      "reversed": "Avoiding conflict or gradually resolving disagreements.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Six of Wands", "number": 6, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 7, "max_days": 30, "speed": "Fast",
+      "upright": "Recognition, success and progress becoming visible.",
+      "reversed": "Delayed recognition or lack of appreciation.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Seven of Wands", "number": 7, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 14, "max_days": 45, "speed": "Moderate",
+      "upright": "Persistence, defending progress and overcoming resistance.",
+      "reversed": "Feeling overwhelmed or struggling to maintain progress.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Eight of Wands", "number": 8, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 1, "max_days": 8, "speed": "Very Fast",
+      "upright": "Rapid movement, messages and developments happening quickly.",
+      "reversed": "Communication delays, postponements or scattered activity.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Nine of Wands", "number": 9, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 14, "max_days": 60, "speed": "Slow",
+      "upright": "Persistence, patience and approaching the final stage.",
+      "reversed": "Exhaustion, hesitation or difficulty continuing.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Ten of Wands", "number": 10, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 30, "max_days": 90, "speed": "Slow",
+      "upright": "Heavy responsibilities and progress requiring effort.",
+      "reversed": "Overload, release of responsibilities or delayed completion.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Page of Wands", "number": 11, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 7, "max_days": 21, "speed": "Fast",
+      "upright": "Exciting news, curiosity and a new opportunity.",
+      "reversed": "Delayed news, immaturity or lack of direction.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Knight of Wands", "number": 12, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 7, "max_days": 21, "speed": "Very Fast",
+      "upright": "Quick action, movement and enthusiastic progress.",
+      "reversed": "Impulsive action, inconsistency or sudden postponement.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Queen of Wands", "number": 13, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 14, "max_days": 45, "speed": "Fast",
+      "upright": "Confidence, independence and taking initiative.",
+      "reversed": "Self-doubt, insecurity or difficulty taking action.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "King of Wands", "number": 14, "arcana": "Minor", "suit": "Wands", "element": "Fire",
+      "min_days": 14, "max_days": 60, "speed": "Fast",
+      "upright": "Leadership, ambition and decisive progress.",
+      "reversed": "Poor planning, impatience or controlling behaviour.",
+      "reversed_effect": "Possible delay"
+    },
+
+    {
+      "name": "Ace of Cups", "number": 1, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 7, "max_days": 30, "speed": "Moderate",
+      "upright": "A new emotional beginning, affection or loving opportunity.",
+      "reversed": "Emotional hesitation or difficulty expressing feelings.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Two of Cups", "number": 2, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 14, "max_days": 45, "speed": "Moderate",
+      "upright": "Mutual attraction, partnership and emotional connection.",
+      "reversed": "Misunderstanding, separation or imbalance in a relationship.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Three of Cups", "number": 3, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 7, "max_days": 30, "speed": "Moderate",
+      "upright": "Celebration, friendship and joyful gatherings.",
+      "reversed": "Social tension, postponed events or misunderstandings.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Four of Cups", "number": 4, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 90, "speed": "Slow",
+      "upright": "Contemplation, emotional withdrawal and waiting.",
+      "reversed": "Renewed interest or slowly recognising an opportunity.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Five of Cups", "number": 5, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 90, "speed": "Slow",
+      "upright": "Disappointment, emotional processing and recovery.",
+      "reversed": "Acceptance, healing and gradually moving forward.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Six of Cups", "number": 6, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 14, "max_days": 60, "speed": "Gradual",
+      "upright": "Memories, reunion and someone from the past returning.",
+      "reversed": "Difficulty releasing the past or delayed reconnection.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Seven of Cups", "number": 7, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 90, "speed": "Uncertain",
+      "upright": "Many possibilities, imagination and important choices.",
+      "reversed": "Confusion clearing or finally making a decision.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "Eight of Cups", "number": 8, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Walking away, emotional transition and searching for meaning.",
+      "reversed": "Fear of leaving or returning to an old situation.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Nine of Cups", "number": 9, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 7, "max_days": 45, "speed": "Moderate",
+      "upright": "Wish fulfilment, satisfaction and emotional happiness.",
+      "reversed": "Unfulfilled expectations or temporary dissatisfaction.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Ten of Cups", "number": 10, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Emotional fulfilment, family harmony and lasting happiness.",
+      "reversed": "Family tension or delayed emotional harmony.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Page of Cups", "number": 11, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 7, "max_days": 30, "speed": "Moderate",
+      "upright": "A heartfelt message, romantic interest or emotional surprise.",
+      "reversed": "Emotional immaturity or delayed communication.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Knight of Cups", "number": 12, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 14, "max_days": 60, "speed": "Gradual",
+      "upright": "Romantic approach, invitation or sincere emotional gesture.",
+      "reversed": "Unreliable intentions or delayed romantic progress.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Queen of Cups", "number": 13, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 90, "speed": "Gradual",
+      "upright": "Emotional maturity, compassion and intuitive understanding.",
+      "reversed": "Emotional overwhelm or difficulty understanding feelings.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "King of Cups", "number": 14, "arcana": "Minor", "suit": "Cups", "element": "Water",
+      "min_days": 30, "max_days": 90, "speed": "Gradual",
+      "upright": "Emotional stability, mature affection and calm decisions.",
+      "reversed": "Emotional distance or difficulty expressing affection.",
+      "reversed_effect": "Possible delay"
+    },
+
+    {
+      "name": "Ace of Swords", "number": 1, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 1, "max_days": 14, "speed": "Very Fast",
+      "upright": "Clarity, truth, communication and a decisive new beginning.",
+      "reversed": "Confusion, unclear communication or delayed decisions.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Two of Swords", "number": 2, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Slow",
+      "upright": "Indecision, waiting and a difficult choice.",
+      "reversed": "Avoidance ending or a decision finally being made.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "Three of Swords", "number": 3, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Moderate",
+      "upright": "Heartbreak, disappointment or an uncomfortable truth.",
+      "reversed": "Healing, forgiveness and gradual emotional recovery.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Four of Swords", "number": 4, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 30, "max_days": 90, "speed": "Slow",
+      "upright": "Rest, recovery and a necessary pause.",
+      "reversed": "Returning to action or recovering from a prolonged pause.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Five of Swords", "number": 5, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Unsettled",
+      "upright": "Conflict, tension and difficult interactions.",
+      "reversed": "Reconciliation, releasing conflict or unresolved resentment.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Six of Swords", "number": 6, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Gradual",
+      "upright": "Moving forward, transition and leaving difficulties behind.",
+      "reversed": "Difficulty moving on or remaining attached to the past.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Seven of Swords", "number": 7, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Uncertain",
+      "upright": "Hidden plans, strategy and information kept private.",
+      "reversed": "Truth emerging or a hidden matter being revealed.",
+      "reversed_effect": "Uncertainty"
+    },
+    {
+      "name": "Eight of Swords", "number": 8, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 30, "max_days": 90, "speed": "Slow",
+      "upright": "Feeling restricted, overthinking and difficulty taking action.",
+      "reversed": "Finding freedom or gradually overcoming limitations.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Nine of Swords", "number": 9, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Uncertain",
+      "upright": "Worry, stress and uncertainty affecting progress.",
+      "reversed": "Relief from anxiety or slowly recovering confidence.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Ten of Swords", "number": 10, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 90, "speed": "Transformational",
+      "upright": "An ending, final setback and the beginning of recovery.",
+      "reversed": "Recovery, resistance to an ending or gradual improvement.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Page of Swords", "number": 11, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 1, "max_days": 21, "speed": "Fast",
+      "upright": "News, curiosity, observation and important communication.",
+      "reversed": "Gossip, misunderstandings or delayed information.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Knight of Swords", "number": 12, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 1, "max_days": 14, "speed": "Very Fast",
+      "upright": "Rapid action, decisive movement and quick communication.",
+      "reversed": "Rushed decisions, arguments or disrupted plans.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Queen of Swords", "number": 13, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 45, "speed": "Moderate",
+      "upright": "Clear thinking, honesty and direct communication.",
+      "reversed": "Cold communication, misunderstandings or harsh decisions.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "King of Swords", "number": 14, "arcana": "Minor", "suit": "Swords", "element": "Air",
+      "min_days": 14, "max_days": 60, "speed": "Moderate",
+      "upright": "Authority, logic, careful judgement and formal decisions.",
+      "reversed": "Poor judgement, rigidity or communication problems.",
+      "reversed_effect": "Possible delay"
+    },
+
+    {
+      "name": "Ace of Pentacles", "number": 1, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 14, "max_days": 60, "speed": "Gradual",
+      "upright": "A new financial opportunity, job offer or practical beginning.",
+      "reversed": "Missed opportunity or delay in financial progress.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Two of Pentacles", "number": 2, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 14, "max_days": 60, "speed": "Moderate",
+      "upright": "Balancing responsibilities and managing changing priorities.",
+      "reversed": "Overload, instability or difficulty managing commitments.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Three of Pentacles", "number": 3, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 90, "speed": "Gradual",
+      "upright": "Teamwork, skill development and progress through cooperation.",
+      "reversed": "Poor teamwork or delays caused by lack of coordination.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Four of Pentacles", "number": 4, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 120, "speed": "Slow",
+      "upright": "Security, stability and holding on to existing resources.",
+      "reversed": "Fear of loss, financial insecurity or gradual release.",
+      "reversed_effect": "Uncertain"
+    },
+    {
+      "name": "Five of Pentacles", "number": 5, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 120, "speed": "Slow",
+      "upright": "Financial difficulty, insecurity or a challenging period.",
+      "reversed": "Recovery, support arriving or improvement after hardship.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Six of Pentacles", "number": 6, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 14, "max_days": 60, "speed": "Gradual",
+      "upright": "Support, generosity and receiving help or resources.",
+      "reversed": "Unequal exchange, dependency or delayed assistance.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Seven of Pentacles", "number": 7, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 180, "speed": "Very Slow",
+      "upright": "Patience, investment and waiting for results to mature.",
+      "reversed": "Impatience, slow returns or reconsidering an investment.",
+      "reversed_effect": "Strong possible delay"
+    },
+    {
+      "name": "Eight of Pentacles", "number": 8, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Consistent effort, learning and progress through practice.",
+      "reversed": "Lack of focus, poor preparation or slow improvement.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Nine of Pentacles", "number": 9, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Independence, financial stability and personal achievement.",
+      "reversed": "Dependence, financial concerns or delayed independence.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Ten of Pentacles", "number": 10, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 60, "max_days": 180, "speed": "Slow",
+      "upright": "Long-term security, family stability and lasting success.",
+      "reversed": "Family or financial instability and delayed long-term plans.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Page of Pentacles", "number": 11, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 14, "max_days": 60, "speed": "Gradual",
+      "upright": "A practical opportunity, study or the beginning of a career path.",
+      "reversed": "Poor planning, lack of preparation or postponed opportunities.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "Knight of Pentacles", "number": 12, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 180, "speed": "Very Slow",
+      "upright": "Reliable effort, steady progress and patient commitment.",
+      "reversed": "Stagnation, excessive caution or slow movement.",
+      "reversed_effect": "Strong possible delay"
+    },
+    {
+      "name": "Queen of Pentacles", "number": 13, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 30, "max_days": 120, "speed": "Gradual",
+      "upright": "Practical support, nurturing and material stability.",
+      "reversed": "Imbalance, financial worry or difficulty managing resources.",
+      "reversed_effect": "Possible delay"
+    },
+    {
+      "name": "King of Pentacles", "number": 14, "arcana": "Minor", "suit": "Pentacles", "element": "Earth",
+      "min_days": 60, "max_days": 180, "speed": "Slow",
+      "upright": "Financial security, achievement and established success.",
+      "reversed": "Financial rigidity, insecurity or delayed material progress.",
+      "reversed_effect": "Possible delay"
+    }
+  ]
+}
