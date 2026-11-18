@@ -21,7 +21,7 @@ A Python-based Tarot Timing Calculator built using Streamlit.
 
 Clone the repository:
 
-    git clone YOUR_REPOSITORY_URL
+    git clone https://github.com/isudo023/Tarot_Time_Calculator.git
 
 Install dependencies:
 
