@@ -210,7 +210,7 @@ if missing_images:
 else:
 
     st.success(
-        "All 78 tarot card images connected successfully!"
+        "Discover the Possible Timing of Your Question!"
     )
 
 
